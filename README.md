@@ -8,8 +8,8 @@ This project explores loan repayment patterns in the Lending Club dataset and ap
 
 ## Project Structure
 
-├── Part1.ipynb # ML pipeline: load data, preprocess, train & evaluate classifiers
-├── Part2.ipynb # Financial analysis module: cash‑flow breakdown & Saari metrics
+- ├── Part1.ipynb # ML pipeline: load data, preprocess, train & evaluate classifiers
+- ├── Part2.ipynb # Financial analysis module: cash‑flow breakdown & Saari metrics
 
 ## Key Features
 
