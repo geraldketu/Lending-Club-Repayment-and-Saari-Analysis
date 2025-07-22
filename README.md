@@ -43,3 +43,6 @@ Part 1 yields a classification report with precision, recall, F1 score, and ROC
 
 Part 2 visualizes principal vs interest flows and introduces a novel Saari metric for profiling loan trajectories.
 
+
+#### For a more detailed analysis refer to the `analysis.md`
+
