@@ -1,9 +1,4 @@
 # Lending Club Loan Repayment Prediction
-
-> **Formerly:** Lending‑Club‑Repayment‑and‑Saari‑Analysis  
-> **Proposed new name:** Lending Club Loan Repayment Prediction  
-> _Other options: “Loan Repayment & Financial Analysis”, “Lending Club Loan Analysis”_
-
 ## Overview
 
 This project explores loan repayment patterns in the Lending Club dataset and applies machine learning and financial analysis techniques inspired by Saari’s framework. It is organized into two Jupyter notebooks:
@@ -15,11 +10,6 @@ This project explores loan repayment patterns in the Lending Club dataset and ap
 
 ├── Part1.ipynb # ML pipeline: load data, preprocess, train & evaluate classifiers
 ├── Part2.ipynb # Financial analysis module: cash‑flow breakdown & Saari metrics
-└── data/ # Raw and processed data files (optional)
-
-markdown
-Copy
-Edit
 
 ## Key Features
 
@@ -44,38 +34,12 @@ Edit
 - Jupyter Notebook or JupyterLab  
 - `pandas`, `matplotlib`, `scikit-learn`
 
-Install dependencies:
-
+### Dependencies
 ```bash
 pip install pandas matplotlib scikit-learn
-Running the Notebooks
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/geraldketu/Lending-Club-Repayment-and-Saari-Analysis.git
-cd Lending-Club-Repayment-and-Saari-Analysis
-Launch Jupyter:
-
-bash
-Copy
-Edit
-jupyter lab
-Open and run:
-
-Part1.ipynb
-
-Part2.ipynb
-
-Results
+```
+### Dependencies
 Part 1 yields a classification report with precision, recall, F1 score, and ROC AUC for both models.
 
 Part 2 visualizes principal vs interest flows and introduces a novel Saari metric for profiling loan trajectories.
 
-Next Steps
-Hyperparameter tuning with cross‑validation
-
-Extend to gradient‑boosting models (XGBoost, LightGBM)
-
-Incorporate more granular feature sets (income history, credit utilization)
